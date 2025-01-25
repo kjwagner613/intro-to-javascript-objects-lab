@@ -98,7 +98,7 @@ Exercise 8
 Solve Exercise 8 here:
 */
 
-game.party.forEach(name => console.log(name.name))
+game.party.forEach(name => console.log(name))
 
 /*
 Exercise 9
@@ -109,16 +109,11 @@ Exercise 9
 Solve Exercise 9 here:
 */
 
-pokemon.forEach (pokemon => {
- if (pokemon.starter = true) {
-        console.log(pokemon.name);
+pokemon.forEach(pokemon => {
+ if (pokemon.starter === true) {
+        console.log('The Starters in the Pokemon Array are', pokemon.name);
  }
 });
-    
-
-// name => console.log(name.name))
-
-
 
 /*
 Exercise 10
@@ -272,3 +267,4 @@ Solve Exercise 16 here:
 */
 
 console.log(game)
+
