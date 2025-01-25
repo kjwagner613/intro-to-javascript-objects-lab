@@ -110,10 +110,10 @@ Solve Exercise 9 here:
 */
 
 pokemon.forEach(pokemon => {
- if (pokemon.starter === true) {
-        console.log('The Starters in the Pokemon Array are', pokemon.name);
- }
-});
+  if (pokemon.starter === true) {
+         console.log('The Starters in the Pokemon Array are', pokemon.name);
+  }
+ });
 
 /*
 Exercise 10
