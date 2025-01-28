@@ -128,10 +128,15 @@ After writing this method, call it and pass in a Pokemon object of your choice f
 Solve Exercise 10 here:
 */
 
-// Add a `catchPokemon` method
+// // Add a `catchPokemon` method
+// const catchPokemon = function (pokemonObj) {
+//   this.party.push(pokemonObj);
+
+// };
+
 const catchPokemon = function (pokemonObj) {
   this.party.push(pokemonObj);
-
+  this.items[1].quantity -= 1;
 };
 
 // Bind the method to the game object without modifying the original directly
@@ -167,10 +172,11 @@ Also, log the `game.items` array to confirm that the pokeball quantity is being 
 Solve Exercise 11 here:
 */
 
-const minusPokeball = function (pokemonObj) {
-  game.party.push(pokemonObj);
-  game.items[1].quantity -= 1;
-}
+// const catchPokemon = function (pokemonObj) {
+//   this.party.push(pokemonObj);
+//   this.items[1].quantity -= 1;
+// };
+
 
 console.log(game.items[1].quantity)
 
